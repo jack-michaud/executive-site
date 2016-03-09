@@ -3,7 +3,7 @@
 	background: url("http://www.nhexecutivecouncil.com/StateHouseLg.jpg") no-repeat center center fixed;
 	background-position: top;
 	background-size: cover;
-	height: 95vh;
+	height: 100vh;
 }
 
 .logo {
@@ -27,21 +27,39 @@
 /*Lower page*/
 
 .lower-page {
-	height: 70vh;
+	height: 100%;
+	color: white;
 	background-color: #3498db;
 }
 .lower-page .letter {
 	padding: 50px 50px 50px 100px;
-
 	text-align: justify;
-	color: white;
+}
+
+.lower-page .giveinfo {
+	padding: 50px;
 }
 
 
 /*Button sharp and outline*/
 
+.btn-success.outline {
+	border: 2px solid #2ecc71;
+    color: #2ecc71;
+}
+
+.btn-success.outline:active, .btn-success.outline:hover, .btn-success.outline:focus {
+	border: 2px solid #27ae60;
+	background: none;
+	color: #27ae60;
+}
+
 .btn.sharp {
 	border-radius: 0;
+}
+
+.btn.sharp {
+
 }
 
 .btn.outline {
@@ -79,7 +97,7 @@
 }
  
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-    background: #33a6cc;
+    background: #9e2c06;
 }
  
 .btn-primary:active, .btn-primary.active {
