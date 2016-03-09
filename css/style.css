@@ -1,3 +1,18 @@
+/*Landing page */
+.landing-page {
+	background: url("https://upload.wikimedia.org/wikipedia/commons/7/70/New_Hampshire_State_House_5.JPG") no-repeat center center fixed;
+	background-position: top;
+	background-size: cover;
+	height: 95vh;
+}
+
+.logo {
+	float: left;
+}
+
+
+
+/*Button sharp and outline*/
 
 .btn.sharp {
 	border-radius: 0;
