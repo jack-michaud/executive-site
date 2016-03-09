@@ -27,7 +27,14 @@
 /*Lower page*/
 
 .lower-page {
-	background-color: #0E3F4F;
+	height: 70vh;
+	background-color: #3498db;
+}
+.lower-page .letter {
+	padding: 50px 50px 50px 100px;
+
+	text-align: justify;
+	color: white;
 }
 
 
