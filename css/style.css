@@ -37,9 +37,13 @@
 }
 
 .lower-page .giveinfo {
-	padding: 50px;
+	padding: 100px 50px 50px 50px
+
 }
 
+.donate {
+	width: 100vh;
+}
 
 /*Button sharp and outline*/
 
