@@ -59,6 +59,7 @@
 /*Lower page*/
 
 .lower-page {
+	box-shadow: inset 0 0 10px #000000;
 	height: 100%;
 	color: white;
 	background-color: #3498db;
@@ -69,12 +70,29 @@
 }
 
 .lower-page .giveinfo {
-	padding: 100px 50px 50px 50px
-
+	padding: 100px 50px 50px 50px;
+	height: 100%;
 }
 
+.donate-msg {
+	position: absolute;
+	bottom: 155px;
+}
 .donate {
-	width: 100vh;
+	width: 70%;
+	position: absolute;
+	bottom: 100px;
+}
+
+/* Footer */
+
+.footer {
+	height: 150px;
+	background: #2980b9;
+	color: #ecf0f1;
+}
+.disclaimer {
+	text-align: center;
 }
 
 /*Button sharp and outline*/
