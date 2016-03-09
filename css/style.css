@@ -1,6 +1,6 @@
 /*Landing page */
 .landing-page {
-	background: url("https://upload.wikimedia.org/wikipedia/commons/7/70/New_Hampshire_State_House_5.JPG") no-repeat center center fixed;
+	background: url("http://www.nhexecutivecouncil.com/StateHouseLg.jpg") no-repeat center center fixed;
 	background-position: top;
 	background-size: cover;
 	height: 95vh;
@@ -8,6 +8,11 @@
 
 .logo {
 	float: left;
+}
+.links {
+	float: right;
+	padding-right: 30px;
+	padding-top: 10px;
 }
 
 
