@@ -14,7 +14,21 @@
 	padding-right: 30px;
 	padding-top: 10px;
 }
+.links .btn {
+	padding: 15px;
+}
+.link .btn #active {
+	color: #035c7a;
+}
+.links .btn:hover {
+	text-decoration: none;
+}
 
+/*Lower page*/
+
+.lower-page {
+	background-color: #0E3F4F;
+}
 
 
 /*Button sharp and outline*/
@@ -53,7 +67,7 @@
 }
  
 .btn-primary {
-    background: #0099cc;
+    background: #CC3300;
     color: #ffffff;
 }
  
