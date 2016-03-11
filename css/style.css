@@ -87,12 +87,13 @@
 
 /* Footer */
 
-.footer {
-	height: 150px;
+.bottom {
+	height: 125px;
 	background: #2980b9;
 	color: #ecf0f1;
+
 }
-.disclaimer {
+.copyright {
 	text-align: center;
 }
 
